@@ -1,62 +1,89 @@
 local p = require("gentleman_kanagawa_blur.palette")
 
 return {
-  ColorColumn = { bg = p.gray1 },
-  Conceal = { fg = p.gray1 },
-  Cursor = { fg = p.black, bg = p.fg },
-  lCursor = { fg = p.black, bg = p.fg },
-  CursorIM = { fg = p.black, bg = p.fg },
-  CursorLine = { bg = p.gray1 },
-  Directory = { fg = p.purple },
-  DiffAdd = { bg = p.green, fg = p.black },
-  DiffChange = { fg = p.yellow, underline = true },
-  DiffDelete = { bg = p.orange, fg = p.black },
-  DiffText = { bg = p.yellow, fg = p.black },
-  EndOfBuffer = { fg = p.bg },
-  ErrorMsg = { fg = p.orange },
-  VertSplit = { fg = p.gray2 },
-  WinSeparator = { fg = p.gray2 },
-  Folded = { fg = p.gray4 },
-  FoldColumn = { bg = p.bg, fg = p.subtext4 },
-  SignColumn = { bg = p.bg, fg = p.subtext4 },
-  IncSearch = { fg = p.black, bg = p.yellow },
-  CurSearch = { fg = p.black, bg = p.yellow },
-  LineNr = { fg = p.gray5 },
-  CursorLineNr = { fg = p.subtext1 },
-  MatchParen = { fg = p.yellow, underline = true },
-  ModeMsg = { fg = p.gray3, bold = true },
-  MoreMsg = { fg = p.bright_magenta },
-  NonText = { fg = p.subtext4 },
-  Normal = { fg = p.fg, bg = p.bg },
-  NormalNC = { fg = p.fg, bg = p.bg_dark },
-  NormalFloat = { fg = p.fg, bg = p.gray0 },
-  FloatBorder = { fg = p.gray5, bg = p.bg },
-  Pmenu = { fg = p.fg, bg = p.black },
-  PmenuSel = { fg = p.white, bg = p.gray3 },
-  PmenuSbar = { bg = p.gray2 },
-  PmenuThumb = { bg = p.gray3 },
-  Question = { fg = p.purple },
-  QuickFixLine = { fg = p.red, bg = p.gray2 },
-  Search = { fg = p.bright_yellow, bg = p.black },
-  SpecialKey = { fg = p.special_grey },
-  SpellBad = { fg = p.orange, underline = true },
-  SpellCap = { fg = p.yellow },
-  SpellLocal = { fg = p.yellow },
-  SpellRare = { fg = p.yellow },
-  StatusLine = { fg = p.fg, bg = p.gray1 },
-  StatusLineNC = { fg = p.bg_dark },
-  StatusLineTerm = { fg = p.fg, bg = p.gray1 },
-  StatusLineTermNC = { fg = p.subtext4 },
-  TabLine = { fg = p.subtext4 },
-  TabLineFill = { bg = p.black },
-  TabLineSel = { fg = p.fg },
-  Terminal = { fg = p.fg, bg = p.black },
-  Title = { fg = p.green },
-  Italic = { fg = p.blue, italic = true },
-  Visual = { bg = p.gray4 },
-  VisualNOS = { bg = p.gray4 },
-  WarningMsg = { fg = p.yellow },
-  WildMenu = { fg = p.black, bg = p.purple },
-  Winbar = { fg = p.fg, bg = p.gray1 },
-  WinbarNC = { fg = p.subtext4, bg = p.bg_dark },
+	-- Fondo y texto principal
+	Normal = { fg = p.fg, bg = p.bg },
+	NormalNC = { fg = p.fg, bg = p.bg_dark },
+	NormalFloat = { fg = p.fg, bg = p.gray0 },
+
+	-- Elementos de UI
+	ColorColumn = { bg = p.gray1 },
+	CursorLine = { bg = p.gray1 },
+	Conceal = { fg = p.gray1 },
+	SignColumn = { bg = p.bg, fg = p.fg_muted },
+	FoldColumn = { bg = p.bg, fg = p.fg_muted },
+	VertSplit = { fg = p.gray2 },
+	WinSeparator = { fg = p.gray2 },
+	EndOfBuffer = { fg = p.bg },
+
+	-- Cursor y selección
+	Cursor = { fg = p.black, bg = p.fg },
+	lCursor = { fg = p.black, bg = p.fg },
+	CursorIM = { fg = p.black, bg = p.fg },
+	Visual = { bg = p.gray4 },
+	VisualNOS = { bg = p.gray4 },
+
+	-- Directorios y títulos
+	Directory = { fg = p.purple },
+	Title = { fg = p.green },
+
+	-- Diffs y Git
+	DiffAdd = { bg = p.green, fg = p.black },
+	DiffChange = { fg = p.yellow, underline = true },
+	DiffDelete = { bg = p.orange, fg = p.black },
+	DiffText = { bg = p.yellow, fg = p.black },
+
+	-- Mensajes
+	ErrorMsg = { fg = p.orange },
+	WarningMsg = { fg = p.yellow },
+	ModeMsg = { fg = p.gray3, bold = true },
+	MoreMsg = { fg = p.bright_magenta },
+	Question = { fg = p.purple },
+
+	-- Número de línea
+	LineNr = { fg = p.gray5 },
+	CursorLineNr = { fg = p.accent }, -- Usamos accent para el número de línea activa
+
+	-- Pmenu (menú de autocompletado)
+	Pmenu = { fg = p.fg, bg = p.black },
+	PmenuSel = { fg = p.white, bg = p.gray3 },
+	PmenuSbar = { bg = p.gray2 },
+	PmenuThumb = { bg = p.gray3 },
+
+	-- Búsqueda
+	Search = { fg = p.bright_yellow, bg = p.black },
+	IncSearch = { fg = p.black, bg = p.yellow },
+	CurSearch = { fg = p.black, bg = p.yellow },
+
+	-- Otros
+	Folded = { fg = p.gray4 },
+	MatchParen = { fg = p.yellow, underline = true },
+	NonText = { fg = p.fg_muted },
+	FloatBorder = { fg = p.gray5, bg = p.bg },
+	QuickFixLine = { fg = p.red, bg = p.gray2 },
+	SpecialKey = { fg = p.fg_muted },
+	SpellBad = { fg = p.orange, underline = true },
+	SpellCap = { fg = p.yellow },
+	SpellLocal = { fg = p.yellow },
+	SpellRare = { fg = p.yellow },
+
+	-- Barra de estado y pestañas
+	StatusLine = { fg = p.fg, bg = p.gray1 },
+	StatusLineNC = { fg = p.fg_muted, bg = p.bg_dark }, -- Mantenemos fg_muted aquí
+	StatusLineTerm = { fg = p.fg, bg = p.gray1 },
+	StatusLineTermNC = { fg = p.fg_muted, bg = p.bg_dark }, -- Mantenemos fg_muted aquí
+	TabLine = { fg = p.fg_muted },
+	TabLineFill = { bg = p.black },
+	TabLineSel = { fg = p.fg },
+
+	-- Terminal
+	Terminal = { fg = p.fg, bg = p.black },
+
+	-- Winbar
+	Winbar = { fg = p.fg, bg = p.gray1 },
+	WinbarNC = { fg = p.fg_muted, bg = p.bg_dark }, -- Mantenemos fg_muted aquí
+
+	-- Estilo Italic (si se usa explícitamente)
+	Italic = { fg = p.blue, italic = true },
+	WildMenu = { fg = p.black, bg = p.purple },
 }
