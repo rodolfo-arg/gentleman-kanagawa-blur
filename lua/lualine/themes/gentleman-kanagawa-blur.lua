@@ -1,5 +1,5 @@
 local config = require("gentleman_kanagawa_blur.config")
-local variant = config.variants or "blur"
+local variant = config.variant or "blur"
 local p = require("gentleman_kanagawa_blur.variant")(variant)
 
 return {
