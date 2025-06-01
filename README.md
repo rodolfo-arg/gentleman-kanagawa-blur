@@ -87,7 +87,7 @@ Para configurar una opción, debes pasar esa configuración con el nuevo valor, 
 
 ```lua
 require("gentleman-kanagawa-blur").setup({
-    variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
+    variants = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
     styles = {
         booleans = { italic = true, bold = true },
     },
