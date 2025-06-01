@@ -10,15 +10,18 @@
 >
 > Cada línea de código te recuerda al flow Gentleman: profesional, elegante y relajado… ¡pero siempre amable con tus ojos para largas sesiones de programación!
 
-### Pd: KUDOS a [@dgox16] https://github.com/dgox16/oldworld.nvim ya que la estructura se basa en su trabajo como inspiración!
+### Pd: KUDOS a [@dgox16] <https://github.com/dgox16/oldworld.nvim> ya que la estructura se basa en su trabajo como inspiración
+
 ---
 
 ## 🌟 Preview
 
 ### Blur
+
 <img width="1920" alt="image" src="https://github.com/user-attachments/assets/b31cbf42-3657-41c1-9e30-ad98b466175c" />
 
 ### Sakura
+
 <img width="1916" alt="image" src="https://github.com/user-attachments/assets/ea23a5e5-546a-4137-94f0-a80392bc4d63" />
 
 ---
@@ -87,7 +90,7 @@ local default_config = {
 Para configurar una opción, debes pasar esa configuración con el nuevo valor, siguiendo la estructura de la configuración predeterminada:
 
 ```lua
-require("gentleman-kanagawa-blur").setup({
+require("gentleman_kanagawa_blur").setup({
     variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
     styles = {
         booleans = { italic = true, bold = true },
