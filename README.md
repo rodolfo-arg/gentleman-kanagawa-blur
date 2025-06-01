@@ -18,11 +18,11 @@
 
 ### Blur
 
-<img width="1920" alt="image" src="https://github.com/user-attachments/assets/b31cbf42-3657-41c1-9e30-ad98b466175c" />
+<img width="1917" alt="image" src="https://github.com/user-attachments/assets/1f23e0ab-2321-480e-8e22-96b741338cff" />
 
 ### Sakura
 
-<img width="1916" alt="image" src="https://github.com/user-attachments/assets/ea23a5e5-546a-4137-94f0-a80392bc4d63" />
+<img width="1916" alt="image" src="https://github.com/user-attachments/assets/1e9221df-9cae-48d4-b54c-5b981157f0cc" />
 
 ---
 
