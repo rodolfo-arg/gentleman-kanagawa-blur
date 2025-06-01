@@ -2,7 +2,7 @@ local config = {}
 
 local default_config = {
     terminal_colors = true,
-    variants = "blur",
+    variant = "blur",
     styles = {
         comments = {},
         keywords = {},
