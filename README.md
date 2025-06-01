@@ -10,6 +10,7 @@
 >
 > Cada línea de código te recuerda al flow Gentleman: profesional, elegante y relajado… ¡pero siempre amable con tus ojos para largas sesiones de programación!
 
+### Pd: KUDOS a [@dgox16] https://github.com/dgox16/oldworld.nvim ya que la estructura se basa en su trabajo como inspiración!
 ---
 
 ## 🌟 Preview
