@@ -6,7 +6,7 @@ return {
 	normal = {
 		a = { fg = p.bg_dark, bg = p.blue, gui = "bold" },
 		b = { fg = p.fg, bg = p.gray2 },
-		c = { fg = p.fg, bg = p.bg_dark },
+		c = { fg = p.fg, bg = p.black },
 	},
 	command = { a = { fg = p.bg_dark, bg = p.accent, gui = "bold" } },
 	insert = { a = { fg = p.bg_dark, bg = p.green, gui = "bold" } },
