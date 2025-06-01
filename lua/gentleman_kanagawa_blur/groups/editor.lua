@@ -51,21 +51,21 @@ return {
 	PmenuThumb = { bg = p.gray3 },
 
 	-- Búsqueda
-	Search = { fg = p.bright_yellow, bg = p.black },
-	IncSearch = { fg = p.black, bg = p.yellow },
-	CurSearch = { fg = p.black, bg = p.yellow },
+	Search = { fg = p.accent, bg = p.black },
+	IncSearch = { fg = p.black, bg = p.accent },
+	CurSearch = { fg = p.black, bg = p.accent },
 
 	-- Otros
 	Folded = { fg = p.gray4 },
-	MatchParen = { fg = p.yellow, underline = true },
+	MatchParen = { fg = p.accent, underline = true },
 	NonText = { fg = p.fg_muted },
 	FloatBorder = { fg = p.gray5, bg = p.bg },
 	QuickFixLine = { fg = p.red, bg = p.gray2 },
 	SpecialKey = { fg = p.fg_muted },
 	SpellBad = { fg = p.orange, underline = true },
-	SpellCap = { fg = p.yellow },
-	SpellLocal = { fg = p.yellow },
-	SpellRare = { fg = p.yellow },
+	SpellCap = { fg = p.accent },
+	SpellLocal = { fg = p.accent },
+	SpellRare = { fg = p.accent },
 
 	-- Barra de estado y pestañas
 	StatusLine = { fg = p.fg, bg = p.gray1 },

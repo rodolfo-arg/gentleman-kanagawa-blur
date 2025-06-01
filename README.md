@@ -29,15 +29,73 @@
 ```
 
 Luego en tu config:
+
 ```lua
 vim.cmd.colorscheme('gentleman-kanagawa-blur')
 ```
 
 ---
 
-## ⚙️ Configuración
+## ⚙️ Configuration
 
 Gentleman Blur es modular, soporta integraciones y overrides. Ver comentarios en cada archivo para ajustes finos y tips.
+
+El tema usará los valores por defecto, a menos que cambies la configuración predeterminada como se muestra a continuación:
+
+```lua
+local default_config = {
+    terminal_colors = true, -- habilitar colores para la terminal
+    variant = "blur", -- puede usar: sakura_night_blur, blur
+    styles = { -- Puedes definir el estilo utilizando el formato: estilo = valor
+        comments = {}, -- estilo para comentarios
+        keywords = {}, -- estilo para palabras clave
+        identifiers = {}, -- estilo para identificadores
+        functions = {}, -- estilo para funciones
+        variables = {}, -- estilo para variables
+        booleans = {}, -- estilo para valores booleanos
+    },
+    integrations = { -- Puedes habilitar/deshabilitar integraciones
+        alpha = true,
+        cmp = true,
+        flash = true,
+        gitsigns = true,
+        hop = false,
+        indent_blankline = true,
+        lazy = true,
+        lsp = true,
+        markdown = true,
+        mason = true,
+        navic = false,
+        neo_tree = false,
+        neogit = false,
+        neorg = false,
+        noice = true,
+        notify = true,
+        rainbow_delimiters = true,
+        telescope = true,
+        treesitter = true,
+    },
+    highlight_overrides = {}
+}
+```
+
+Para configurar una opción, debes pasar esa configuración con el nuevo valor, siguiendo la estructura de la configuración predeterminada:
+
+```lua
+require("gentleman-kanagawa-blur").setup({
+    variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
+    styles = {
+        booleans = { italic = true, bold = true },
+    },
+    integrations = {
+        hop = true,
+        telescope = false,
+    },
+    highlight_overrides = {
+        Comment = { bg = "#ff0000" } -- Sobrescribir colores específicos
+    }
+})
+```
 
 ---
 
