@@ -14,7 +14,11 @@
 
 ## 🌟 Preview
 
+### Blur
 <img width="1920" alt="image" src="https://github.com/user-attachments/assets/b31cbf42-3657-41c1-9e30-ad98b466175c" />
+
+### Sakura
+<img width="1916" alt="image" src="https://github.com/user-attachments/assets/ea23a5e5-546a-4137-94f0-a80392bc4d63" />
 
 ---
 
