@@ -1,4 +1,6 @@
-local p = require("gentleman_kanagawa_blur.palette")
+local config = require("gentleman_kanagawa_blur.config")
+local variant = config.variants or "blur"
+local p = require("gentleman_kanagawa_blur.variants")(variant)
 
 return {
     normal = {
