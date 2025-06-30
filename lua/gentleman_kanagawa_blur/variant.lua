@@ -38,6 +38,12 @@ local palettes = {
 
 		selection = "#263356",
 
+		-- Colores difuminados para diffs
+		diff_add_bg = "#1E2D1E",
+		diff_change_bg = "#2D2A1E",
+		diff_delete_bg = "#2D211E",
+		diff_text_bg = "#332F1E",
+
 		comment = "#8394A3",
 		comment_doc = "#8394A3",
 		constant = "#CB7C94",
@@ -116,6 +122,12 @@ local palettes = {
 		bright_cyan = "#CBF0FF",
 
 		selection = "#FFB2D7",
+
+		-- Colores difuminados para diffs
+		diff_add_bg = "#2A3D34",
+		diff_change_bg = "#2D2A1A",
+		diff_delete_bg = "#3D2A2A",
+		diff_text_bg = "#3D3D2A",
 
 		comment = "#8BA7C1",
 		comment_doc = "#8BA7C1",

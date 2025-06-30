@@ -27,11 +27,11 @@ return {
 	Directory = { fg = p.purple },
 	Title = { fg = p.green },
 
-	-- Diffs y Git
-	DiffAdd = { bg = p.green, fg = p.black },
-	DiffChange = { fg = p.yellow, underline = true },
-	DiffDelete = { bg = p.orange, fg = p.black },
-	DiffText = { bg = p.yellow, fg = p.black },
+	-- Diffs y Git (con backgrounds más sutiles)
+	DiffAdd = { bg = p.diff_add_bg, fg = p.bright_green },
+	DiffChange = { bg = p.diff_change_bg, fg = p.yellow },
+	DiffDelete = { bg = p.diff_delete_bg, fg = p.bright_orange },
+	DiffText = { bg = p.diff_text_bg, fg = p.bright_yellow },
 
 	-- Mensajes
 	ErrorMsg = { fg = p.orange },
