@@ -36,20 +36,20 @@ return {
 	["@lsp.typemod.type.defaultLibrary"] = { fg = p.type },
 	["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
 	["@lsp.typemod.variable.injected"] = { link = "@variable" },
-	-- Diagnostics
+	-- Diagnostics con subtle backgrounds
 	DiagnosticOk = { fg = p.enum },
 	DiagnosticError = { fg = p.variable },
 	DiagnosticWarn = { fg = p.string },
 	DiagnosticInfo = { fg = p.function_ },
 	DiagnosticHint = { fg = p.cyan },
-	DiagnosticUnderlineError = { fg = p.variable, underline = true },
-	DiagnosticUnderlineWarn = { fg = p.string, underline = true },
-	DiagnosticUnderlineInfo = { fg = p.function_, underline = true },
-	DiagnosticUnderlineHint = { fg = p.cyan, underline = true },
+	DiagnosticUnderlineError = { bg = p.surface0 },
+	DiagnosticUnderlineWarn = { bg = p.surface0 },
+	DiagnosticUnderlineInfo = { bg = p.surface0 },
+	DiagnosticUnderlineHint = { bg = p.surface0 },
 
-	-- Neovim's built-in language server client
-	LspReferenceWrite = { fg = p.type, underline = true },
-	LspReferenceText = { fg = p.type, underline = true },
-	LspReferenceRead = { fg = p.type, underline = true },
+	-- LSP Reference highlighting con subtle background (sin underline)
+	LspReferenceWrite = { bg = p.surface1 },
+	LspReferenceText = { bg = p.surface1 },
+	LspReferenceRead = { bg = p.surface1 },
 	LspSignatureActiveParameter = { fg = p.operator, bold = true },
 }
