@@ -13,6 +13,9 @@ local palettes = {
 		surface0 = "#1C212C",
 		surface1 = "#232A36", 
 		surface2 = "#2A3142",
+		
+		-- LSP highlighting with better contrast against CursorLine
+		lsp_reference_bg = "#2D3C4A",
 
 		fg = "#F3F6F9",
 		black = "#06080f",
@@ -103,6 +106,9 @@ local palettes = {
 		surface0 = "#1B2030",
 		surface1 = "#212536",
 		surface2 = "#282E42",
+		
+		-- LSP highlighting with better contrast against CursorLine
+		lsp_reference_bg = "#2A3048",
 
 		fg = "#F3F6F9",
 		black = "#1A2033",

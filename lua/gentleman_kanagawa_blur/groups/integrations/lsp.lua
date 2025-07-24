@@ -47,9 +47,9 @@ return {
 	DiagnosticUnderlineInfo = { bg = p.surface0 },
 	DiagnosticUnderlineHint = { bg = p.surface0 },
 
-	-- LSP Reference highlighting con subtle background (sin underline)
-	LspReferenceWrite = { bg = p.surface1 },
-	LspReferenceText = { bg = p.surface1 },
-	LspReferenceRead = { bg = p.surface1 },
+	-- LSP Reference highlighting con mejor contraste vs CursorLine
+	LspReferenceWrite = { bg = p.lsp_reference_bg },
+	LspReferenceText = { bg = p.lsp_reference_bg },
+	LspReferenceRead = { bg = p.lsp_reference_bg },
 	LspSignatureActiveParameter = { fg = p.operator, bold = true },
 }
