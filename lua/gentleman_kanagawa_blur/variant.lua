@@ -8,6 +8,11 @@ local palettes = {
 		gray3 = "#313342",
 		gray4 = "#27345C",
 		gray5 = "#5C6170",
+		
+		-- Surface colors for subtle backgrounds (like Catppuccin)
+		surface0 = "#1C212C",
+		surface1 = "#232A36", 
+		surface2 = "#2A3142",
 
 		fg = "#F3F6F9",
 		black = "#06080f",
@@ -93,6 +98,11 @@ local palettes = {
 		gray3 = "#313342",
 		gray4 = "#27345C",
 		gray5 = "#54546D",
+		
+		-- Surface colors for subtle backgrounds (like Catppuccin)
+		surface0 = "#1B2030",
+		surface1 = "#212536",
+		surface2 = "#282E42",
 
 		fg = "#F3F6F9",
 		black = "#1A2033",

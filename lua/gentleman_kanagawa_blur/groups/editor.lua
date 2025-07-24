@@ -16,12 +16,12 @@ return {
 	WinSeparator = { fg = p.gray2 },
 	EndOfBuffer = { fg = p.bg },
 
-	-- Cursor y selección
+	-- Cursor y selección (con subtle background)
 	Cursor = { fg = p.black, bg = p.fg },
 	lCursor = { fg = p.black, bg = p.fg },
 	CursorIM = { fg = p.black, bg = p.fg },
-	Visual = { bg = p.gray4 },
-	VisualNOS = { bg = p.gray4 },
+	Visual = { bg = p.surface1, bold = true },
+	VisualNOS = { bg = p.surface1 },
 
 	-- Directorios y títulos
 	Directory = { fg = p.purple },
@@ -44,28 +44,28 @@ return {
 	LineNr = { fg = p.gray5 },
 	CursorLineNr = { fg = p.accent }, -- Usamos accent para el número de línea activa
 
-	-- Pmenu (menú de autocompletado)
+	-- Pmenu (menú de autocompletado) con subtle background
 	Pmenu = { fg = p.fg, bg = p.black },
-	PmenuSel = { fg = p.white, bg = p.gray3 },
+	PmenuSel = { fg = p.white, bg = p.surface1, bold = true },
 	PmenuSbar = { bg = p.gray2 },
 	PmenuThumb = { bg = p.gray3 },
 
-	-- Búsqueda
-	Search = { fg = p.accent, bg = p.black },
+	-- Búsqueda (con subtle background como Catppuccin)
+	Search = { fg = p.accent, bg = p.surface1 },
 	IncSearch = { fg = p.black, bg = p.accent },
 	CurSearch = { fg = p.black, bg = p.accent },
 
 	-- Otros
 	Folded = { fg = p.gray4 },
-	MatchParen = { fg = p.accent, underline = true },
+	MatchParen = { fg = p.accent, bg = p.surface1, bold = true },
 	NonText = { fg = p.fg_muted },
 	FloatBorder = { fg = p.gray5, bg = p.bg },
-	QuickFixLine = { fg = p.red, bg = p.gray2 },
+	QuickFixLine = { fg = p.red, bg = p.surface1, bold = true },
 	SpecialKey = { fg = p.fg_muted },
-	SpellBad = { fg = p.orange, underline = true },
-	SpellCap = { fg = p.accent },
-	SpellLocal = { fg = p.accent },
-	SpellRare = { fg = p.accent },
+	SpellBad = { fg = p.orange, bg = p.surface0 },
+	SpellCap = { fg = p.accent, bg = p.surface0 },
+	SpellLocal = { fg = p.accent, bg = p.surface0 },
+	SpellRare = { fg = p.accent, bg = p.surface0 },
 
 	-- Barra de estado y pestañas
 	StatusLine = { fg = p.fg, bg = p.bg_dark },
