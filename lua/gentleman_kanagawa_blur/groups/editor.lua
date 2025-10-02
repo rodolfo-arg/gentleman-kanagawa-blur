@@ -2,7 +2,7 @@ local p = require("gentleman_kanagawa_blur.palette")
 
 return {
 	-- Fondo y texto principal
-	Normal = { fg = p.fg, bg = p.bg_dark },
+	Normal = { fg = "#ffffff", bg = p.bg_dark },
 	NormalNC = { fg = p.fg, bg = p.bg_dark },
 	NormalFloat = { fg = p.fg, bg = p.gray0 },
 
