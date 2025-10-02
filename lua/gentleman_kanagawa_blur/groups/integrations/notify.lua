@@ -2,7 +2,7 @@ local p = require("gentleman_kanagawa_blur.palette")
 
 return {
 	NotifyBackground = { fg = p.fg, bg = p.bg },
-	NotifyERRORBorder = { fg = p.blue, bg = p.bg },
+	NotifyERRORBorder = { fg = p.white, bg = p.bg },
 	NotifyWARNBorder = { fg = p.yellow, bg = p.bg },
 	NotifyINFOBorder = { fg = p.purple, bg = p.bg },
 	NotifyDEBUGBorder = { fg = p.subtext1, bg = p.bg },
@@ -12,7 +12,7 @@ return {
 	NotifyINFOIcon = { fg = p.bright_purple },
 	NotifyDEBUGIcon = { fg = p.subtext4 },
 	NotifyTRACEIcon = { fg = p.bright_red },
-	NotifyERRORTitle = { fg = p.bright_blue },
+	NotifyERRORTitle = { fg = p.white },
 	NotifyWARNTitle = { fg = p.bright_yellow },
 	NotifyINFOTitle = { fg = p.bright_purple },
 	NotifyDEBUGTitle = { fg = p.subtext4 },

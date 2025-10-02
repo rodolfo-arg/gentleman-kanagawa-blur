@@ -62,7 +62,7 @@ return {
 	FloatBorder = { fg = p.gray5, bg = p.bg },
 	QuickFixLine = { fg = p.red, bg = p.surface1, bold = true },
 	SpecialKey = { fg = p.fg_muted },
-	SpellBad = { fg = p.blue, bg = p.surface0 },
+	SpellBad = { fg = p.white, bg = p.surface0 },
 	SpellCap = { fg = p.accent, bg = p.surface0 },
 	SpellLocal = { fg = p.accent, bg = p.surface0 },
 	SpellRare = { fg = p.accent, bg = p.surface0 },
