@@ -7,9 +7,9 @@ return {
 	NormalFloat = { fg = p.fg, bg = p.gray0 },
 
 	-- Elementos de UI
-	ColorColumn = { bg = p.gray1 },
-	CursorLine = { bg = #ffffff },
-	Conceal = { fg = p.gray1 },
+	ColorColumn = { bg = p.purple },
+	CursorLine = { bg = p.purple },
+	Conceal = { fg = p.purple },
 	SignColumn = { bg = p.bg, fg = p.fg_muted },
 	FoldColumn = { bg = p.bg, fg = p.fg_muted },
 	VertSplit = { fg = p.gray2 },
@@ -80,7 +80,7 @@ return {
 	Terminal = { fg = p.fg, bg = p.black },
 
 	-- Winbar
-	Winbar = { fg = p.fg, bg = p.gray1 },
+	Winbar = { fg = p.fg, bg = p.purple },
 	WinbarNC = { fg = p.fg_muted, bg = p.bg_dark }, -- Mantenemos fg_muted aquí
 
 	-- Estilo Italic (si se usa explícitamente)
