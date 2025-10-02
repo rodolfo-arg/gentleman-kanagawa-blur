@@ -30,11 +30,11 @@ return {
 	-- Diffs y Git (con backgrounds más sutiles)
 	DiffAdd = { bg = p.diff_add_bg, fg = p.bright_green },
 	DiffChange = { bg = p.diff_change_bg, fg = p.yellow },
-	DiffDelete = { bg = p.diff_delete_bg, fg = p.bright_orange },
+	DiffDelete = { bg = p.diff_delete_bg, fg = p.bright_blue },
 	DiffText = { bg = p.diff_text_bg, fg = p.bright_yellow },
 
 	-- Mensajes
-	ErrorMsg = { fg = p.orange },
+	ErrorMsg = { fg = p.blue },
 	WarningMsg = { fg = p.yellow },
 	ModeMsg = { fg = p.gray3, bold = true },
 	MoreMsg = { fg = p.bright_magenta },
@@ -62,7 +62,7 @@ return {
 	FloatBorder = { fg = p.gray5, bg = p.bg },
 	QuickFixLine = { fg = p.red, bg = p.surface1, bold = true },
 	SpecialKey = { fg = p.fg_muted },
-	SpellBad = { fg = p.orange, bg = p.surface0 },
+	SpellBad = { fg = p.blue, bg = p.surface0 },
 	SpellCap = { fg = p.accent, bg = p.surface0 },
 	SpellLocal = { fg = p.accent, bg = p.surface0 },
 	SpellRare = { fg = p.accent, bg = p.surface0 },
