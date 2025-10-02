@@ -23,7 +23,7 @@ local palettes = {
 		fg_muted = "#5C6170",
 		fg_placeholder = "#8A8FA3",
 		fg_disabled = "#606C86",
-		accent = "#F3F6F9",
+		accent = "#7FB4CA",
 
 		red = "#CB7C94",
 		green = "#B7CC85",
