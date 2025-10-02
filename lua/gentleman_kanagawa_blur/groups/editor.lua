@@ -63,9 +63,9 @@ return {
 	QuickFixLine = { fg = p.red, bg = p.surface1, bold = true },
 	SpecialKey = { fg = p.fg_muted },
 	SpellBad = { fg = p.black, bg = p.surface0 },
-	SpellCap = { fg = p.accent, bg = p.surface0 },
-	SpellLocal = { fg = p.accent, bg = p.surface0 },
-	SpellRare = { fg = p.accent, bg = p.surface0 },
+	SpellCap = { fg = p.black, bg = p.surface0 },
+	SpellLocal = { fg = p.black, bg = p.surface0 },
+	SpellRare = { fg = p.black, bg = p.surface0 },
 
 	-- Barra de estado y pestañas
 	StatusLine = { fg = p.fg, bg = p.bg_dark },
