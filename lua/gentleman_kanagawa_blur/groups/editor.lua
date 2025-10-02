@@ -41,7 +41,7 @@ return {
 	Question = { fg = p.purple },
 
 	-- Número de línea
-	LineNr = { fg = p.gray5 },
+	LineNr = { fg = p.accent },
 	CursorLineNr = { fg = p.accent }, -- Usamos accent para el número de línea activa
 
 	-- Pmenu (menú de autocompletado) con subtle background
