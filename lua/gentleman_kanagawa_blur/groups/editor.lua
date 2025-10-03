@@ -34,7 +34,7 @@ return {
 	DiffText = { bg = p.diff_text_bg, fg = p.bright_yellow },
 
 	-- Mensajes
-	ErrorMsg = { fg = p.blue },
+	ErrorMsg = { fg = p.accent },
 	WarningMsg = { fg = p.yellow },
 	ModeMsg = { fg = p.gray3, bold = true },
 	MoreMsg = { fg = p.bright_magenta },
