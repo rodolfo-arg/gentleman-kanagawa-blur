@@ -15,7 +15,7 @@ local palettes = {
 		surface2 = "#2A3142",
 		
 		-- LSP highlighting with better contrast against CursorLine
-		lsp_reference_bg = "#2D3C4A",
+		lsp_reference_bg = "#191E28",
 
 		fg = "#F3F6F9",
 		black = "#06080f",
