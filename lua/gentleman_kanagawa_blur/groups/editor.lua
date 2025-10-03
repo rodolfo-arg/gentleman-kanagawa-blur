@@ -42,7 +42,7 @@ return {
 
 	-- Número de línea
 	LineNr = { fg = p.white },
-	CursorLineNr = { fg = p.bright_orange }, -- Usamos accent para el número de línea activa
+	CursorLineNr = { fg = p.gray5 }, -- Usamos accent para el número de línea activa
 
 	-- Pmenu (menú de autocompletado) con subtle background
 	Pmenu = { fg = p.fg, bg = p.black },
