@@ -10,7 +10,7 @@ local palettes = {
 		gray5 = "#5C6170",
 		
 		-- Surface colors for subtle backgrounds (like Catppuccin)
-		surface0 = "#ffe1a4",
+		surface0 = "#ff8800",
 		surface1 = "#232A36", 
 		surface2 = "#2A3142",
 		
